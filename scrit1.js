@@ -13,7 +13,7 @@
            }
           }else(td[i].innerHTML % 2 == 1) 
         {
-            td[i].onclick=function(){
+            td[i].onmouseover=function(){
                 this.style.backgroundColor="red";
                }
              td[i].onmouseout=function(){
